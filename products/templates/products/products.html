@@ -27,13 +27,15 @@
                             <div class="card h-100 border-0">
                                 <!-- Card Top with either a product image if one exists or a default image -->
                                 {% if product.image %}
-                                <a href="">
-                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                                </a>
+                                    <!-- Links to the product detail page -->
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    </a>
                                 {% else %}
-                                <a href="">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                                </a>
+                                    <!-- Links to the product detail page regardless of no product image -->
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    </a>
                                 {% endif %}
                                 <!-- Card body containing the product name -->
                                 <div class="card-body pb-0">
