@@ -1,45 +1,129 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome simonjvardy,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+---
 
-## Gitpod Reminders
+### **Contents** ###
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- [UX (User Experience)](#ux-user-experience)
+  - [Project Goals](#project-goals)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#site-owner-goals)
+- [Technologies](#technologies)
+  - [Languages](#languages)
+  - [Database](#database)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Credits](#credits)
+  - [Images](#images)
+  - [Colour](#colour)
+  - [Inspiration](#inspiration)
+  - [Acknowledgements](#acknowledgements)
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+## UX (User Experience) ##
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **Project Goals** ###
 
-A blue button should appear to click: *Make Public*,
+The **goal** of this project is to build a a website that allows site visitors to read book reviews created by registered users and to find links to online retailers to purchase books they like.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The **features** on the website will:
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+I achieve this by:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### **User Goals** ###
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### **User Stories** ###
 
---------
 
-Happy coding!
+#### **New Site Visitor** ####
+
+- As a **user**, I want to see a 
+
+
+#### **Returning Site Visitor** ####
+
+- As a **user**, I want to 
+
+
+#### **Site Administrator** ####
+
+- As an **Administrator**, I want to be able to add, edit and delete 
+
+
+### **Site Owner Goals** ###
+
+- As a **site owner**, I want to create an **interactive website** allowing the user to easily understand the site's purpose and features.
+
+
+[Back to contents](#contents)
+
+--- 
+
+## Technologies ##
+
+### **Languages** ###
+
+- [Python3](https://www.python.org/)
+  - Used to create the main application functionality
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the main markup language for the website content.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Used to style the individual webpages.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - Used to create the interactive functionality of the website
+
+
+### **Database** ###
+
+- [PostgreSQL](https://www.postgresql.org/)
+  - A powerful, open source object-relational database.
+
+### **Libraries** ###
+
+- [Bootstrap5](https://getbootstrap.com/)
+  - Used to design a mobile-first responsive website layout.
+- [Django](https://www.djangoproject.com/)
+  - A high-level Python Web framework
+- [Django-Allauth](https://django-allauth.readthedocs.io/en/latest/overview.html)
+  - Python user authentication and login plugin for Django
+- [sqlparse](https://pypi.org/project/sqlparse/)
+  - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements.
+- [jQuery](https://jquery.com/)
+  - Used for the initialisation of the Bootstrap5 components functionality.
+- [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
+  - Templating language for Python.
+
+
+
+### **Tools** ###
+
+- [Git](https://git-scm.com/)
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/)
+  - Used to store, host and deploy the project files and source code after being pushed from Git.
+- [Gitpod](https://www.gitpod.io/)
+  - An online IDE linked to the GitHub repository used for the majority of the code development.
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+  - Used for icons to enhance headings and add emphasis to text.
+
+
+---
+
+## Credits ##
+
+### **Images** ###
+
+### **Acknowledgements** ###
+
+- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material 
