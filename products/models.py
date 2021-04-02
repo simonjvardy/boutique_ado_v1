@@ -5,7 +5,7 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural = 'Categories'
-        
+
     name = models.CharField(
         max_length=254)
     friendly_name = models.CharField(
@@ -33,6 +33,8 @@ class Product(models.Model):
     name = models.CharField(
         max_length=254)
     description = models.TextField()
+    has_sizes = models.BooleanField(
+        default=False, null=True, blank=True)
     price = models.DecimalField(
         max_digits=6,
         decimal_places=2)
