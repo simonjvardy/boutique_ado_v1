@@ -46,13 +46,25 @@ The **goal** of this project is to build a
 | 8 | Site User | Easily recover my password in case I forget it | Recover access to my account |
 | 9 | Site User | Receive an email confirmation after registering | Verify that my account registration was successful |
 | 10 | Site User | Have a personalised user profile | View my personal order history and order confirmations and save my payment information |
-| | | ***Viewing and Navigation*** | | 
+| | | ***Sorting & Searching*** | | 
 | 11 | Shopper | Sort the list of available products | Easily identify the best rated, best priced and categorically sorted products |
 | 12 | Shopper | Sort a specific category of product | Find the best-priced or best-rated product in a specific category or sort the products in that category by name |
 | 13 | Shopper | Sort multiple categories of products simultaneously | Find the best-priced or best-rated products across broad categories, such as "clothing" or "homeware" |
 | 14 | Shopper | Search for a product by name or description | Find a specific product I'd like to purchase |
-| 14 | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
-| | | ***TBC*** | | 
+| 15 | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
+| | | ***Purchasing & Checkout*** | | 
+| 16 | Shopper | Easily select the size and quamtity of a poduct when purchasing it | Ensure I don't accidentally select the wrong product, quantity or size |
+| 17 | Shopper | View items in my shopping bag to be purchased | Identify the total cost of my purchase and all items I will receive |
+| 18 | Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
+| 19 | Shopper | Easily enter my payment information | Checkout easily with no hassles |
+| 20 | Shopper | Feel my personal and payment information is secure | Confidently provide the needed information to make a purchase |
+| 21 | Shopper | View an order confirmation after checkout | Verify I have I haven't made any mistakes |
+| 22 | Shopper | Receive an email confirmation after checking out | Keep the confirmation of what I've purchased for my records |
+| | | ***Admin & Store Management*** | | 
+| 23 | Store Owner | Add a product | Add new items to my store |
+| 24 | Store Owner | Edit / update a product | Change product prices, descriptions, images,and other product criteria |
+| 25 | Store Owner | Delete a product | Remove items that are no longer for sale |
+
 
 
 [Back to contents](#contents)
@@ -89,7 +101,7 @@ The **goal** of this project is to build a
 - [sqlparse](https://pypi.org/project/sqlparse/)
   - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements.
 - [jQuery](https://jquery.com/)
-  - Used for the initialisation of the Bootstrap5 components functionality.
+  - Used for the initialisation of the Bootstrap5 components functionality and enhance the shopping bag functionality.
 - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
   - Templating language for Python.
 
