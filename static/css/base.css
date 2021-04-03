@@ -136,3 +136,16 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+/* -------------------------------- Input Forms */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
