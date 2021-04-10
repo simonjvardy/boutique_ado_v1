@@ -90,6 +90,8 @@ The **goal** of this project is to build a
 
 - [PostgreSQL](https://www.postgresql.org/)
   - A powerful, open source object-relational database.
+- [sqlite3](https://www.sqlitetutorial.net/sqlite-python/)
+  - Default database created with Django used for app development on localhost.
 
 ### **Libraries / Frameworks** ###
 
@@ -118,6 +120,10 @@ The **goal** of this project is to build a
   - An online IDE linked to the GitHub repository used for the majority of the code development.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
   - Used for icons to enhance headings and add emphasis to text.
+- [Heroku](https://www.heroku.com)
+  - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+- [AWS S3](https://aws.amazon.com/s3/)
+  - Amazon Simple Storage Service (Amazon S3) is an object storage service used to store the site static files
 
 
 ---
