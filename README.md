@@ -98,11 +98,21 @@ The **goal** of this project is to build a
 - [Bootstrap5](https://getbootstrap.com/)
   - Used to design a mobile-first responsive website layout.
 - [Django](https://www.djangoproject.com/)
-  - A high-level Python Web framework
+  - A high-level Python Web framework.
 - [Django-Allauth](https://django-allauth.readthedocs.io/en/latest/overview.html)
-  - Python user authentication and login plugin for Django
+  - Python user authentication and login plugin for Django.
+- [Stripe](https://stripe.com/en-gb)
+  - Online payments platform used for the shopping basket functionality.
+- [Green Unicorn (gunicorn)](https://gunicorn.org/)
+  - Python WSGI HTTP Server for Unix used on the Heroku deployment.
+- [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)
+  - PostgreSQL database adapter for Python.
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+  - Python Image Library image processing capabilities.
 - [sqlparse](https://pypi.org/project/sqlparse/)
   - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements.
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+  - AWS SDK for Python (Boto3) used to create, configure, and manage AWS S3 services.
 - [jQuery](https://jquery.com/)
   - Used for the initialisation of the Bootstrap5 components functionality and enhance the shopping bag functionality.
 - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
